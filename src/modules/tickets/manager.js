@@ -351,14 +351,10 @@ module.exports = class TicketManager extends EventEmitter {
                         ],
                     });
 
-                    setTimeout(async () => {
-                        await channel.delete(
-                            `Ticket channel closed by ${closer.user.tag}${
-                                reason ? `: "${reason}"` : ""
-                            }`
-                        );
-                    }, 180000);
-                }
+					setTimeout(async () => {
+						await channel.delete(`Ticket channel closed by ${closer.user.tag}${reason ? `: "${reason}"` : ''}`);
+					}, 180000);
+				}
 
                 this.client.log.info(
                     `${closer.user.tag} closed a ticket (${ticket_id})${
@@ -380,39 +376,21 @@ module.exports = class TicketManager extends EventEmitter {
                         ],
                     });
 
-                    setTimeout(async () => {
-                        await channel.delete(
-                            `Ticket channel closed${
-                                reason ? `: "${reason}"` : ""
-                            }`
-                        );
-                    }, 180000);
-                }
+					setTimeout(async () => {
+						await channel.delete(`Ticket channel closed${reason ? `: "${reason}"` : ''}`);
+					}, 180000);
+				}
 
-                this.client.log.info(
-                    `A ticket was closed (${ticket_id})${
-                        reason ? `: "${reason}"` : ""
-                    }`
-                );
-            }
-        };
-
-        if (channel) {
-            guild.members
-                .fetch(t_row.creator)
-                .then(async (creator) => {
-                    const cat_row =
-                        await this.client.db.models.Category.findOne({
-                            where: { id: t_row.category },
-                        });
-                    if (creator && cat_row.survey) {
-                        const survey =
-                            await this.client.db.models.Survey.findOne({
-                                where: {
-                                    guild: t_row.guild,
-                                    name: cat_row.survey,
-                                },
-                            });
+			guild.members.fetch(t_row.creator)
+				.then(async creator => {
+					const cat_row = await this.client.db.models.Category.findOne({ where: { id: t_row.category } });
+					if (creator && cat_row.survey) {
+						const survey = await this.client.db.models.Survey.findOne({
+							where: {
+								guild: t_row.guild,
+								name: cat_row.survey
+							}
+						});
 
                         if (survey) {
                             await channel.send({
@@ -605,6 +583,12 @@ module.exports = class TicketManager extends EventEmitter {
             });
         }
 
+<<<<<<< HEAD
         return t_row;
     }
+=======
+		return t_row;
+	}
+
+>>>>>>> eb297a1 (Increase channel delete delay)
 };
