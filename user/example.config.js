@@ -19,15 +19,15 @@
 
 module.exports = {
 	defaults: {
-		colour: '#009999',
-		log_messages: true,
+		colour: '#AD5BFF',
+		log_messages: false,
 		name_format: 'ticket-{number}',
-		opening_message: 'Hello {name}, thank you for creating a ticket. A member of staff will soon be available to assist you.\n\n__All messages in this channel are stored for future reference.__'
+		opening_message: 'Bonjour {name}, merci d\'avoir créé un ticket. Un membre du staff communautaire va bientôt prendre contact avec vous.\n\n__Ne divulguez ici aucun mot de passe ou information personnelle.__'
 	},
 	developer: { debug: false },
-	locale: 'en-GB',
+	locale: 'fr-MC',
 	logs: {
-		enabled: true,
+		enabled: false,
 		keep_for: 30,
 		split: true
 	},
@@ -37,19 +37,11 @@ module.exports = {
 		duration: 60,
 		presences: [
 			{
-				activity: '/new',
+				activity: 'mc.erisium.com',
 				type: 'PLAYING'
-			},
-			{
-				activity: 'with tickets',
-				type: 'PLAYING'
-			},
-			{
-				activity: 'tickets',
-				type: 'WATCHING'
 			}
 		],
-		randomise: true
+		randomise: false
 	},
 	super_secret_setting: true,
 	update_notice: true
