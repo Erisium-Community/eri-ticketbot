@@ -558,19 +558,19 @@
 		},
 		"close": "Fermer",
 		"closed": {
-			"description": "Ce ticket a été fermé.\nLe canal sera supprimé dans 5 secondes.",
+			"description": "Ce ticket a été fermé.\nLe canal sera supprimé dans 10 minutes.",
 			"title": "✅ Ticket fermé"
 		},
 		"closed_by_member": {
-			"description": "Ce ticket a été fermé par %s.\nLe canal sera supprimé dans 5 secondes.",
+			"description": "Ce ticket a été fermé par %s.\nLe canal sera supprimé dans 10 minutes.",
 			"title": "✅ Ticket fermé"
 		},
 		"closed_by_member_with_reason": {
-			"description": "Ce ticket a été fermé par %s: `%s`\nLe canal sera supprimé dans 5 secondes.",
+			"description": "Ce ticket a été fermé par %s: `%s`\nLe canal sera supprimé dans 10 minutes.",
 			"title": "✅ Ticket fermé"
 		},
 		"closed_with_reason": {
-			"description": "Ce ticket a été fermé: `%s`\nLe canal sera supprimé dans 5 secondes.",
+			"description": "Ce ticket a été fermé: `%s`\nLe canal sera supprimé dans 10 minutes.",
 			"title": "✅ Ticket fermé"
 		},
 		"member_added": {
