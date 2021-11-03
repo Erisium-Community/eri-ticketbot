@@ -5,7 +5,7 @@
 			"description": "Discord Tickets requires the following permissions:\n%s",
 			"title": "⚠️"
 		},
-		"version": "Erisium Support"
+		"version": "Erisium Community Support"
 	},
 	"collector_expires_in": "Expire dans %d secondes",
 	"command_execution_error": {
@@ -556,22 +556,22 @@
 			"description": "%s a été assigné à ce ticket.",
 			"title": "✅ Ticket assigné"
 		},
-		"close": "Close",
+		"close": "Fermer",
 		"closed": {
 			"description": "Ce ticket a été fermé.\nLe canal sera supprimé dans 5 secondes.",
-			"title": "✅ Ticket closed"
+			"title": "✅ Ticket fermé"
 		},
 		"closed_by_member": {
 			"description": "Ce ticket a été fermé par %s.\nLe canal sera supprimé dans 5 secondes.",
-			"title": "✅ Ticket closed"
+			"title": "✅ Ticket fermé"
 		},
 		"closed_by_member_with_reason": {
 			"description": "Ce ticket a été fermé par %s: `%s`\nLe canal sera supprimé dans 5 secondes.",
-			"title": "✅ Ticket closed"
+			"title": "✅ Ticket fermé"
 		},
 		"closed_with_reason": {
 			"description": "Ce ticket a été fermé: `%s`\nLe canal sera supprimé dans 5 secondes.",
-			"title": "✅ Ticket closed"
+			"title": "✅ Ticket fermé"
 		},
 		"member_added": {
 			"description": "%s a été ajouté par %s",
