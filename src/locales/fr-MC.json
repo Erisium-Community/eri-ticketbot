@@ -5,24 +5,24 @@
 			"description": "Discord Tickets requires the following permissions:\n%s",
 			"title": "⚠️"
 		},
-		"version": "[Discord Tickets](%s) v%s by [eartharoid](%s)"
+		"version": "Erisium Support"
 	},
-	"collector_expires_in": "Expires in %d seconds",
+	"collector_expires_in": "Expire dans %d secondes",
 	"command_execution_error": {
 		"description": "An unexpected error occurred during command execution.\nPlease ask an administrator to check the console output / logs for details.",
 		"title": "⚠️"
 	},
 	"commands": {
 		"add": {
-			"description": "Add a member to a ticket",
+			"description": "Ajouter un membre à un ticket",
 			"name": "add",
 			"options": {
 				"member": {
-					"description": "The member to add to the ticket",
+					"description": "Membre à ajouter au ticket",
 					"name": "member"
 				},
 				"ticket": {
-					"description": "The ticket to add the member to",
+					"description": "Le ticket auquel ajouter un membre",
 					"name": "ticket"
 				}
 			},
@@ -36,8 +36,8 @@
 					"title": "❌ Unknown member"
 				},
 				"no_permission": {
-					"description": "You are not the creator of this ticket and you are not a staff member; you can't add members to this ticket.",
-					"title": "❌ Insufficient permission"
+					"description": "Vous n'êtes ni le créateur du ticket ni un membre de l'équipe.",
+					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
 					"description": "Please use this command in the ticket channel, or mention the channel.",
@@ -113,66 +113,66 @@
 			}
 		},
 		"close": {
-			"description": "Close a ticket channel",
+			"description": "Fermer un ticket",
 			"name": "close",
 			"options": {
 				"reason": {
-					"description": "The reason for closing the ticket(s)",
+					"description": "La raison de fermeture du/des ticket(s)",
 					"name": "reason"
 				},
 				"ticket": {
-					"description": "The ticket to close, either the number or the channel ID",
+					"description": "Le ticket à fermer, son ID ou l'ID de son canal.",
 					"name": "ticket"
 				},
 				"time": {
-					"description": "Close all tickets that have been inactive for the specified time",
+					"description": "Fermer tous les tickets qui ont été inactifs depuis la date spécifiée",
 					"name": "time"
 				}
 			},
 			"response": {
 				"canceled": {
-					"description": "You canceled the operation.",
-					"title": "🚫 Canceled"
+					"description": "Vous avez annulé l'opération.",
+					"title": "🚫 Annulé"
 				},
 				"closed": {
-					"description": "Ticket #%s has been closed.",
-					"title": "✅ Ticket closed"
+					"description": "Le ticket #%s a été fermé.",
+					"title": "✅ Ticket fermé"
 				},
 				"closed_multiple": {
 					"description": [
-						"%d ticket has been closed.",
-						"%d tickets have been closed."
+						"%d ticket a été fermé.",
+						"%d tickets ont été fermés."
 					],
 					"title": [
-						"✅ Ticket closed",
-						"✅ Tickets closed"
+						"✅ Ticket fermé",
+						"✅ Tickets fermés"
 					]
 				},
 				"confirm": {
 					"buttons": {
-						"cancel": "Cancel",
-						"confirm": "Close"
+						"cancel": "Annuler",
+						"confirm": "Fermer"
 					},
-					"description": "Please confirm your decision.",
-					"description_with_archive": "The ticket will be archived for future reference.",
-					"title": "❔ Are you sure?"
+					"description": "Merci de confirmer votre décision.",
+					"description_with_archive": "Ce ticket va être archivé.",
+					"title": "❔ Êtes-vous sûr ?"
 				},
 				"confirm_multiple": {
 					"buttons": {
-						"cancel": "Cancel",
+						"cancel": "Annuler",
 						"confirm": [
-							"Close %d ticket",
-							"Close %d tickets"
+							"Fermer %d ticket",
+							"Fermer %d tickets"
 						]
 					},
 					"description": [
-						"You are about to close %d ticket.",
-						"You are about to close %d tickets."
+						"Vous êtes sur le point de fermer %d ticket.",
+						"Vous êtes sur le point de fermer %d tickets."
 					],
-					"title": "❔ Are you sure?"
+					"title": "❔ Êtes-vous sûr ?"
 				},
 				"confirmation_timeout": {
-					"description": "You took too long to confirm.",
+					"description": "Vous avez pris trop de temps à confirmer.",
 					"title": "❌ Interaction time expired"
 				},
 				"invalid_time": {
@@ -198,31 +198,31 @@
 			}
 		},
 		"help": {
-			"description": "List the commands you have access to",
+			"description": "Liste des commandes auxquelles vous avez accès",
 			"name": "help",
 			"options": {},
 			"response": {
 				"list": {
-					"description": "The commands you have access to are listed below. To create a ticket, type **`/new`**.",
+					"description": "Les commandes auxquelles vous avez accès sont répertoriées ici. Pour créer un ticket, utilisez **`/new`**.",
 					"fields": {
-						"commands": "Commands"
+						"commands": "Commandes"
 					},
-					"title": "❔ Help"
+					"title": "❔ Aide"
 				}
 			}
 		},
 		"new": {
-			"description": "Create a new ticket",
+			"description": "Créer un nouveau ticket",
 			"name": "new",
 			"options": {
 				"topic": {
-					"description": "The topic of the ticket",
+					"description": "Le sujet du ticket",
 					"name": "topic"
 				}
 			},
 			"request_topic": {
-				"description": "Please briefly state what this ticket is about in a a few words.",
-				"title": "⚠️ Ticket topic"
+				"description": "Merci d'expliquer le sujet du ticket en quelques mots.",
+				"title": "⚠️ Sujet du ticket"
 			},
 			"response": {
 				"created": {
@@ -230,27 +230,27 @@
 					"title": "✅ Ticket créé"
 				},
 				"error": {
-					"title": "❌ Error"
+					"title": "❌ Erreur"
 				},
 				"has_a_ticket": {
-					"description": "Please use your existing ticket (<#%s>) or close it before creating another.",
-					"title": "❌ You already have an open ticket"
+					"description": "Merci d'utiliser votre ticket actuel (<#%s>) ou de le fermer avant d'en créer un nouveau.",
+					"title": "❌ Vous avez déjà un ticket ouvert"
 				},
 				"max_tickets": {
-					"description": "Please use `/close` to close any unneeded tickets.\n\n%s",
-					"title": "❌ You already have %d open tickets"
+					"description": "Merci d'utiliser la commande `/close` pour fermer les tickets inutilisés.\n\n%s",
+					"title": "❌ Vous avez déjà %d tickets ouverts"
 				},
 				"no_categories": {
 					"description": "A server administrator must create at least one ticket category before a new ticket can be opened.",
 					"title": "❌ Can't create ticket"
 				},
 				"select_category": {
-					"description": "Select the category most relevant to your ticket's topic.",
-					"title": "🔤 Please select the ticket category"
+					"description": "Sélectionnez la catégorie associée à votre ticket.",
+					"title": "🔤 Veuillez sélectionner la catégorie"
 				},
 				"select_category_timeout": {
-					"description": "You took too long to select the ticket category.",
-					"title": "❌ Interaction time expired"
+					"description": "Vous avez pris trop de temps à choisir la catégorie de votre ticket.",
+					"title": "❌ Délai d'interaction dépassé"
 				}
 			}
 		},
@@ -295,34 +295,34 @@
 			}
 		},
 		"remove": {
-			"description": "Remove a member from a ticket",
+			"description": "Retirer un membre d'un ticket",
 			"name": "remove",
 			"options": {
 				"member": {
-					"description": "The member to remove from the ticket",
+					"description": "Le membre à retirer du ticket",
 					"name": "member"
 				},
 				"ticket": {
-					"description": "The ticket to remove the member from",
+					"description": "Le ticket depuis lequel retirer un membre",
 					"name": "ticket"
 				}
 			},
 			"response": {
 				"no_member": {
-					"description": "Please mention the member you want to remove.",
-					"title": "❌ Unknown member"
+					"description": "Merci de mentionner le membre que vous souhaitez retirer.",
+					"title": "❌ Membre inconnu"
 				},
 				"no_permission": {
-					"description": "You are not the creator of this ticket and you are not a staff member; you can't remove members from this ticket.",
-					"title": "❌ Insufficient permission"
+					"description": "Vous n'êtes ni le créateur du ticket ni un membre de l'équipe.",
+					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
 					"description": "Please use this command in the ticket channel, or mention the channel.",
 					"title": "❌ This isn't a ticket channel"
 				},
 				"removed": {
-					"description": "%s has been removed from %s.",
-					"title": "✅ Member removed"
+					"description": "%s a été retiré de %s.",
+					"title": "✅ Membre supprimé"
 				}
 			}
 		},
@@ -522,67 +522,67 @@
 			}
 		},
 		"topic": {
-			"description": "Change the topic of the ticket",
+			"description": "Changer le sujet du ticket",
 			"name": "topic",
 			"options": {
 				"new_topic": {
-					"description": "The new topic of the ticket",
+					"description": "Nouveau sujet du ticket",
 					"name": "new_topic"
 				}
 			},
 			"response": {
 				"changed": {
-					"description": "This ticket's topic has been changed.",
-					"title": "✅ Topic changed"
+					"description": "Le topic a été modifié.",
+					"title": "✅ Topic modifié"
 				},
 				"not_a_ticket": {
-					"description": "Please use this command in the ticket channel you want to change the topic of.",
-					"title": "❌ This isn't a ticket channel"
+					"description": "Merci d'utiliser cette commande dans le canal associé au ticket.",
+					"title": "❌ Vous n'êtes pas dans un canal de ticket"
 				}
 			}
 		}
 	},
-	"message_will_be_deleted_in": "This message will be deleted in %d seconds",
+	"message_will_be_deleted_in": "Ce message sera supprimé dans %d secondes",
 	"missing_permissions": {
-		"description": "You do not have the permissions required to use this command:\n%s",
-		"title": "❌ Error"
+		"description": "Vous n'avez pas les permissions requises pour utiliser cette commande:\n%s",
+		"title": "❌ Erreur"
 	},
 	"panel": {
-		"create_ticket": "Create a ticket"
+		"create_ticket": "Créer un ticket"
 	},
 	"ticket": {
-		"claim": "Claim",
+		"claim": "Assigner",
 		"claimed": {
-			"description": "%s has claimed this ticket.",
-			"title": "✅ Ticket claimed"
+			"description": "%s a été assigné à ce ticket.",
+			"title": "✅ Ticket assigné"
 		},
 		"close": "Close",
 		"closed": {
-			"description": "This ticket has been closed.\nThe channel will be deleted in 5 seconds.",
+			"description": "Ce ticket a été fermé.\nLe canal sera supprimé dans 5 secondes.",
 			"title": "✅ Ticket closed"
 		},
 		"closed_by_member": {
-			"description": "This ticket has been closed by %s.\nThe channel will be deleted in 5 seconds.",
+			"description": "Ce ticket a été fermé par %s.\nLe canal sera supprimé dans 5 secondes.",
 			"title": "✅ Ticket closed"
 		},
 		"closed_by_member_with_reason": {
-			"description": "This ticket has been closed by %s: `%s`\nThe channel will be deleted in 5 seconds.",
+			"description": "Ce ticket a été fermé par %s: `%s`\nLe canal sera supprimé dans 5 secondes.",
 			"title": "✅ Ticket closed"
 		},
 		"closed_with_reason": {
-			"description": "This ticket has been closed: `%s`\nThe channel will be deleted in 5 seconds.",
+			"description": "Ce ticket a été fermé: `%s`\nLe canal sera supprimé dans 5 secondes.",
 			"title": "✅ Ticket closed"
 		},
 		"member_added": {
-			"description": "%s has been added by %s",
-			"title": "Member added"
+			"description": "%s a été ajouté par %s",
+			"title": "Membre ajouté"
 		},
 		"member_removed": {
-			"description": "%s has been removed by %s",
-			"title": "Member removed"
+			"description": "%s a été retiré par %s",
+			"title": "Membre retiré"
 		},
 		"opening_message": {
-			"content": "%s\n%s has created a new ticket",
+			"content": "%s\n%s a créé un nouveau ticket !",
 			"fields": {
 				"topic": "Topic"
 			}
