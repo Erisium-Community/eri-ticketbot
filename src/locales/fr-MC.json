@@ -551,7 +551,7 @@
 		"create_ticket": "Créer un ticket"
 	},
 	"ticket": {
-		"claim": "Assigner",
+		"claim": "Répondre à ce ticket",
 		"claimed": {
 			"description": "%s a été assigné à ce ticket.",
 			"title": "✅ Ticket assigné"
@@ -589,8 +589,8 @@
 		},
 		"questions": "Please answer the following questions:\n\n%s",
 		"released": {
-			"description": "%s has released this ticket.",
-			"title": "✅ Ticket released"
+			"description": "%s a libéré ce ticket.",
+			"title": "✅ Ticket libéré"
 		},
 		"survey": {
 			"complete": {
@@ -606,7 +606,7 @@
 				"title": "❔ Feedback"
 			}
 		},
-		"unclaim": "Release"
+		"unclaim": "Libérer ce ticket"
 	},
 	"updated_permissions": "✅ Slash command permissions updated"
 }
