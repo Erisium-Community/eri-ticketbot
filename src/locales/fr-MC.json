@@ -2,14 +2,14 @@
 	"blacklisted": "❌ Vous ne pouvez plus créer de tickets. Dans le cas où il s'agirait d'une erreur, vous pouvez écrire une [réclamation](https://eri.si/reclam)",
 	"bot": {
 		"missing_permissions": {
-			"description": "Discord Tickets requires the following permissions:\n%s",
+			"description": "Discord Tickets a besoin des permissions suivantes:\n%s",
 			"title": "⚠️"
 		},
 		"version": "Erisium Community Support"
 	},
 	"collector_expires_in": "Expire dans %d secondes",
 	"command_execution_error": {
-		"description": "An unexpected error occurred during command execution.\nPlease ask an administrator to check the console output / logs for details.",
+		"description": "Une erreur est apparu lors de l'éxécution de cette commande.\nMerci de contacter un Responsable en cas de récidive.",
 		"title": "⚠️"
 	},
 	"commands": {
@@ -29,11 +29,11 @@
 			"response": {
 				"added": {
 					"description": "%s a été ajouté à %s.",
-					"title": "✅ Member added"
+					"title": "✅ Mmebre ajouté !"
 				},
 				"no_member": {
-					"description": "Please mention the member you want to add.",
-					"title": "❌ Unknown member"
+					"description": "Mrci de mention la personne que vous souhaitez ajouté au ticket.",
+					"title": "❌ Membre inconnu"
 				},
 				"no_permission": {
 					"description": "Vous n'êtes ni le créateur du ticket ni un membre de l'équipe.",
@@ -46,11 +46,11 @@
 			}
 		},
 		"blacklist": {
-			"description": "View or modify the blacklist",
+			"description": "Voir ou modifier la blacklist",
 			"name": "blacklist",
 			"options": {
 				"add": {
-					"description": "Add a member or role to the blacklist",
+					"description": "Ajout d'un membre ou d'un rôle a la blacklist",
 					"name": "add",
 					"options": {
 						"member_or_role": {
@@ -60,7 +60,7 @@
 					}
 				},
 				"remove": {
-					"description": "Remove a member or role from the blacklist",
+					"description": "Retirer un membre ou un rôle de la blacklist",
 					"name": "remove",
 					"options": {
 						"member_or_role": {
@@ -70,7 +70,7 @@
 					}
 				},
 				"show": {
-					"description": "Show the members and roles in the blacklist",
+					"description": "Montrer la liste des membres et rôles de la blacklist",
 					"name": "show"
 				}
 			},
@@ -80,7 +80,7 @@
 					"title": "📃 Blacklisted members and roles"
 				},
 				"illegal_action": {
-					"description": "%s is a staff member and cannot be blacklisted.",
+					"description": "%s est un membre du staff et ne peut donc pas être dans la blacklist.",
 					"title": "❌ You can't blacklist this member"
 				},
 				"invalid": {
