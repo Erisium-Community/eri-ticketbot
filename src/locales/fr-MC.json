@@ -317,8 +317,8 @@
 					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
-					"description": "Please use this command in the ticket channel, or mention the channel.",
-					"title": "❌ This isn't a ticket channel"
+					"description": "Merci d'utiliser cette commande dans le channel dédier a cet effet, ou alors de mentionner le salon.",
+					"title": "❌ Ce n'est pas un salon de Tickets"
 				},
 				"removed": {
 					"description": "%s a été retiré de %s.",
@@ -335,11 +335,11 @@
 					"name": "categories",
 					"options": {
 						"create": {
-							"description": "Create a new category",
+							"description": "Créer une nouvelle catégorie",
 							"name": "create",
 							"options": {
 								"name": {
-									"description": "The name of the category",
+									"description": "Le nom de la catégorie",
 									"name": "name"
 								},
 								"roles": {
@@ -349,11 +349,11 @@
 							}
 						},
 						"delete": {
-							"description": "Delete a category",
+							"description": "Supprimer une catégorie",
 							"name": "delete",
 							"options": {
 								"id": {
-									"description": "The ID of the category to delete",
+									"description": "L'ID de la catégorie a supprimer",
 									"name": "id"
 								}
 							}
