@@ -2,7 +2,7 @@
 	"blacklisted": "❌ Vous ne pouvez plus créer de tickets. Dans le cas où il s'agirait d'une erreur, vous pouvez écrire une [réclamation](https://eri.si/reclam)",
 	"bot": {
 		"missing_permissions": {
-			"description": "Discord Tickets requires the following permissions:\n%s",
+			"description": "Discord Tickets demande l'accès aux permissions suivantes :\n%s",
 			"title": "⚠️"
 		},
 		"version": "Erisium Community Support"
@@ -29,11 +29,11 @@
 			"response": {
 				"added": {
 					"description": "%s a été ajouté à %s.",
-					"title": "✅ Member added"
+					"title": "✅ Membre ajouté"
 				},
 				"no_member": {
 					"description": "Please mention the member you want to add.",
-					"title": "❌ Unknown member"
+					"title": "❌ Membre inconnu"
 				},
 				"no_permission": {
 					"description": "Vous n'êtes ni le créateur du ticket ni un membre de l'équipe.",
@@ -46,11 +46,11 @@
 			}
 		},
 		"blacklist": {
-			"description": "View or modify the blacklist",
+			"description": "Voir ou modifier la blacklist",
 			"name": "blacklist",
 			"options": {
 				"add": {
-					"description": "Add a member or role to the blacklist",
+					"description": "Ajout d'un membre ou d'un rôle à la blacklist",
 					"name": "add",
 					"options": {
 						"member_or_role": {
@@ -60,7 +60,7 @@
 					}
 				},
 				"remove": {
-					"description": "Remove a member or role from the blacklist",
+					"description": "Retirer un membre ou un rôle de la blacklist",
 					"name": "remove",
 					"options": {
 						"member_or_role": {
@@ -70,7 +70,7 @@
 					}
 				},
 				"show": {
-					"description": "Show the members and roles in the blacklist",
+					"description": "Afficher les rôles et membres de la blacklist",
 					"name": "show"
 				}
 			},
@@ -80,35 +80,35 @@
 					"title": "📃 Blacklisted members and roles"
 				},
 				"illegal_action": {
-					"description": "%s is a staff member and cannot be blacklisted.",
-					"title": "❌ You can't blacklist this member"
+					"description": "%s est un membre du staff et ne peut être blacklist.",
+					"title": "❌ Vous ne pouvez pas blacklist ce membre"
 				},
 				"invalid": {
-					"description": "This member or role can not be removed from the blacklist as they are not blacklisted.",
-					"title": "❌ Error"
+					"description": "Ce membre/rôle ne peut pas être retiré de la blacklist car il n'en fait pas partie.",
+					"title": "❌ Erreur"
 				},
 				"list": {
 					"fields": {
 						"members": "Members",
 						"roles": "Roles"
 					},
-					"title": "📃 Blacklisted members and roles"
+					"title": "📃 Rôles et membres de la Blacklist"
 				},
 				"member_added": {
 					"description": "<@%s> has been added to the blacklist. They will no longer be able to interact with the bot.",
-					"title": "✅ Added member to blacklist"
+					"title": "✅ Membre ajouté à la blacklist"
 				},
 				"member_removed": {
 					"description": "<@%s> has been removed from the blacklist. They can now use the bot again.",
-					"title": "✅ Removed member from blacklist"
+					"title": "✅ Membre retiré de la blacklist"
 				},
 				"role_added": {
 					"description": "<@&%s> has been added to the blacklist. Members with this role will no longer be able to interact with the bot.",
-					"title": "✅ Added role to blacklist"
+					"title": "✅ Rôle ajouté à la blacklist"
 				},
 				"role_removed": {
 					"description": "<@&%s> has been removed from the blacklist. Members with this role can now use the bot again.",
-					"title": "✅ Removed role from blacklist"
+					"title": "✅ Rôle retiré de la blacklist"
 				}
 			}
 		},
@@ -242,7 +242,7 @@
 				},
 				"no_categories": {
 					"description": "A server administrator must create at least one ticket category before a new ticket can be opened.",
-					"title": "❌ Can't create ticket"
+					"title": "❌ Impossible de créer un ticket"
 				},
 				"select_category": {
 					"description": "Sélectionnez la catégorie associée à votre ticket.",
