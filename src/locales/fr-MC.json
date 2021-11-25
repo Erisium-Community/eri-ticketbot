@@ -317,7 +317,7 @@
 					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
-					"description": "Merci d'utiliser cette commande dans le channel dédier a cet effet, ou alors de mentionner le salon.",
+					"description": "Merci d'utiliser cette commande dans le channel dédié à cet effet, ou alors de mentionner le salon.",
 					"title": "❌ Vous n'êtes pas dans salon de ticket"
 				},
 				"removed": {
