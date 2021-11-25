@@ -46,7 +46,7 @@
 			}
 		},
 		"blacklist": {
-			"description": "Voir ou modifié la blacklist",
+			"description": "Voir ou modifier la blacklist",
 			"name": "blacklist",
 			"options": {
 				"add": {
