@@ -318,7 +318,7 @@
 				},
 				"not_a_ticket": {
 					"description": "Merci d'utiliser cette commande dans le channel dédier a cet effet, ou alors de mentionner le salon.",
-					"title": "❌ Ce n'est pas un salon de Tickets"
+					"title": "❌ Vous n'êtes pas dans salon de ticket"
 				},
 				"removed": {
 					"description": "%s a été retiré de %s.",
