@@ -50,7 +50,7 @@
 			"name": "blacklist",
 			"options": {
 				"add": {
-					"description": "Ajout d'un membre ou d'un rôle a la blacklist",
+					"description": "Ajout d'un membre ou d'un rôle à la blacklist",
 					"name": "add",
 					"options": {
 						"member_or_role": {
