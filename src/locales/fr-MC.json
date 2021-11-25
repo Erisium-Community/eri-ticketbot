@@ -60,7 +60,7 @@
 					}
 				},
 				"remove": {
-					"description": "Retiré un membre ou un rôle de la blacklist",
+					"description": "Retirer un membre ou un rôle de la blacklist",
 					"name": "remove",
 					"options": {
 						"member_or_role": {
