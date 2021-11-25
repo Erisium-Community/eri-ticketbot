@@ -353,7 +353,7 @@
 							"name": "delete",
 							"options": {
 								"id": {
-									"description": "L'ID de la catégorie a supprimer",
+									"description": "L'ID de la catégorie à supprimer",
 									"name": "id"
 								}
 							}
