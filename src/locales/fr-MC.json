@@ -40,8 +40,8 @@
 					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
-					"description": "Please use this command in the ticket channel, or mention the channel.",
-					"title": "❌ This isn't a ticket channel"
+					"description": "Merci d'utiliser cette commande dans un channel de ticket, où mentionner le channel.",
+					"title": "❌ Ce n'est pas un channel de tickets"
 				}
 			}
 		},
@@ -54,7 +54,7 @@
 					"name": "add",
 					"options": {
 						"member_or_role": {
-							"description": "The member or role to add to the blacklist",
+							"description": "Le membre ou rôle a ajouter a la blacklist",
 							"name": "member_or_role"
 						}
 					}
@@ -64,7 +64,7 @@
 					"name": "remove",
 					"options": {
 						"member_or_role": {
-							"description": "The member or role to remove from the blacklist",
+							"description": "Le membre ou le röle a retirer de la blacklist",
 							"name": "member_or_role"
 						}
 					}
@@ -92,23 +92,22 @@
 						"members": "Members",
 						"roles": "Roles"
 					},
-					"title": "📃 Blacklisted members and roles"
+					"title": "📃 Membres et rôles de la blacklist"
 				},
 				"member_added": {
-					"description": "<@%s> has been added to the blacklist. They will no longer be able to interact with the bot.",
-					"title": "✅ Added member to blacklist"
+					"description": "<@%s> a été ajouté a la blacklist. Il ne peut donc plus intéragir avec le bot.",
+					"title": "✅ Membre ajouté a la blacklist !"
 				},
 				"member_removed": {
-					"description": "<@%s> has been removed from the blacklist. They can now use the bot again.",
-					"title": "✅ Removed member from blacklist"
+					"description": "<@%s> a été retiré de la blacklist. Il peut donc de nouveau intéragir avec le bot.",
+					"title": "✅ membre retiré de la blacklist"
 				},
 				"role_added": {
-					"description": "<@&%s> has been added to the blacklist. Members with this role will no longer be able to interact with the bot.",
-					"title": "✅ Added role to blacklist"
-				},
+					"description": "Le rôle <@&%s> a été ajouté a la blacklist. Les joueurs avec ce rôle ne peuvent donc plus intéragir avec le bot.",
+					"title": "✅ Added role toRôle ajouté a la balcklist"
 				"role_removed": {
-					"description": "<@&%s> has been removed from the blacklist. Members with this role can now use the bot again.",
-					"title": "✅ Removed role from blacklist"
+					"description": "Le rôle <@&%s> a été retiré de la blacklist. Les joueurs avec ce rôle peuvent de nouveau intéragir avec le bot.",
+					"title": "✅ Rôle retiré de la blacklist"
 				}
 			}
 		},
@@ -173,7 +172,7 @@
 				},
 				"confirmation_timeout": {
 					"description": "Vous avez pris trop de temps à confirmer.",
-					"title": "❌ Interaction time expired"
+					"title": "❌ Temps d'intéraction terminé"
 				},
 				"invalid_time": {
 					"description": "The time period provided could not be parsed.",
