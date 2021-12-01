@@ -32,7 +32,7 @@
 					"title": "✅ Membre ajouté"
 				},
 				"no_member": {
-					"description": "Please mention the member you want to add.",
+					"description": "Merci de mentionner la personne que vous souhaitez ajouter au ticket.",
 					"title": "❌ Membre inconnu"
 				},
 				"no_permission": {
@@ -95,19 +95,18 @@
 					"title": "📃 Rôles et membres de la Blacklist"
 				},
 				"member_added": {
-					"description": "<@%s> has been added to the blacklist. They will no longer be able to interact with the bot.",
-					"title": "✅ Membre ajouté à la blacklist"
+					"description": "<@%s> a été ajouté a la blacklist. Il ne peut donc plus interagir avec le bot.",
+					"title": "✅ Membre ajouté à la blacklist !"
 				},
 				"member_removed": {
-					"description": "<@%s> has been removed from the blacklist. They can now use the bot again.",
-					"title": "✅ Membre retiré de la blacklist"
+					"description": "<@%s> a été retiré de la blacklist. Il peut donc de nouveau interagir avec le bot.",
+					"title": "✅ membre retiré de la blacklist"
 				},
 				"role_added": {
-					"description": "<@&%s> has been added to the blacklist. Members with this role will no longer be able to interact with the bot.",
-					"title": "✅ Rôle ajouté à la blacklist"
-				},
+					"description": "Le rôle <@&%s> a été ajouté a la blacklist. Les joueurs avec ce rôle ne peuvent donc plus interagir avec le bot.",
+					"title": "✅ Rôle ajouté a la blacklist"
 				"role_removed": {
-					"description": "<@&%s> has been removed from the blacklist. Members with this role can now use the bot again.",
+					"description": "Le rôle <@&%s> a été retiré de la blacklist. Les joueurs avec ce rôle peuvent de nouveau interagir avec le bot.",
 					"title": "✅ Rôle retiré de la blacklist"
 				}
 			}
