@@ -95,7 +95,7 @@
 					"title": "📃 Rôles et membres de la Blacklist"
 				},
 				"member_added": {
-					"description": "<@%s> a été ajouté a la blacklist. Il ne peut donc plus intéragir avec le bot.",
+					"description": "<@%s> a été ajouté a la blacklist. Il ne peut donc plus interagir avec le bot.",
 					"title": "✅ Membre ajouté a la blacklist !"
 				},
 				"member_removed": {
