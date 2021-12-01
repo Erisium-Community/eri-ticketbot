@@ -32,7 +32,7 @@
 					"title": "✅ Membre ajouté"
 				},
 				"no_member": {
-					"description": "Merci de mentionner la personne que vous souhaitez ajouté au ticket.",
+					"description": "Merci de mentionner la personne que vous souhaitez ajouter au ticket.",
 					"title": "❌ Membre inconnu"
 				},
 				"no_permission": {
