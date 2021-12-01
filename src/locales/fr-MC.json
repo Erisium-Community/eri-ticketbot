@@ -96,7 +96,7 @@
 				},
 				"member_added": {
 					"description": "<@%s> a été ajouté a la blacklist. Il ne peut donc plus interagir avec le bot.",
-					"title": "✅ Membre ajouté a la blacklist !"
+					"title": "✅ Membre ajouté à la blacklist !"
 				},
 				"member_removed": {
 					"description": "<@%s> a été retiré de la blacklist. Il peut donc de nouveau interagir avec le bot.",
