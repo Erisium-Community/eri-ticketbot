@@ -9,7 +9,7 @@
 	},
 	"collector_expires_in": "Expire dans %d secondes",
 	"command_execution_error": {
-		"description": "An unexpected error occurred during command execution.\nPlease ask an administrator to check the console output / logs for details.",
+		"description": "Une érreur est apparu lors de l'éxécution de la commande.\nMerci de contacter un administrateur ou de vérifier les logs pour plus de détails.",
 		"title": "⚠️"
 	},
 	"commands": {
@@ -40,8 +40,8 @@
 					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
-					"description": "Please use this command in the ticket channel, or mention the channel.",
-					"title": "❌ This isn't a ticket channel"
+					"description": "Merci d'utiliser cette commande dans un channel de ticket, ou mentionnez le channel.",
+					"title": "❌ Ce n'est pas un channel de ticket"
 				}
 			}
 		},
@@ -54,7 +54,7 @@
 					"name": "add",
 					"options": {
 						"member_or_role": {
-							"description": "The member or role to add to the blacklist",
+							"description": "Le membre oû rôle a ajouté à la blacklist",
 							"name": "member_or_role"
 						}
 					}
@@ -64,7 +64,7 @@
 					"name": "remove",
 					"options": {
 						"member_or_role": {
-							"description": "The member or role to remove from the blacklist",
+							"description": "Le membre oû rôle a retiré de la blacklist",
 							"name": "member_or_role"
 						}
 					}
@@ -179,8 +179,8 @@
 					"title": "❌ Invalid input"
 				},
 				"no_permission": {
-					"description": "You are not a staff member or the ticket creator.",
-					"title": "❌ Insufficient permission"
+					"description": "Vous n'ètes pas un membre du staff ou le gérant de ce ticket.",
+					"title": "❌ Permissions inssufisantes"
 				},
 				"no_tickets": {
 					"description": "There are no tickets which have been inactive for this time period.",
@@ -254,7 +254,7 @@
 			}
 		},
 		"panel": {
-			"description": "Create a new ticket panel",
+			"description": "Créer un nouveau panneau de ticket",
 			"name": "panel",
 			"options": {
 				"categories": {
