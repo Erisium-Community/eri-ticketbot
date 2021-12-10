@@ -40,7 +40,7 @@
 					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
-					"description": "Merci d'utiliser cette commande dans un channel de ticket, ou de mentionner le channel.",
+					"description": "Merci d'utiliser cette commande dans un channel dédier à cet effet",
 					"title": "❌ Ce n'est pas un channel de ticket"
 				}
 			}
@@ -179,7 +179,7 @@
 					"title": "❌ Invalid input"
 				},
 				"no_permission": {
-					"description": "Vous n'ètes pas un membre du staff ou le gérant de ce ticket.",
+					"description": "Vous n'ètes pas un membre du staff ou le créateur de ce ticket.",
 					"title": "❌ Permissions inssufisantes"
 				},
 				"no_tickets": {
@@ -254,7 +254,7 @@
 			}
 		},
 		"panel": {
-			"description": "Créer un nouveau panneau de ticket",
+			"description": "Créer un nouveau channel de ticket",
 			"name": "panel",
 			"options": {
 				"categories": {
