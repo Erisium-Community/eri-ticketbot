@@ -40,7 +40,7 @@
 					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
-					"description": "Merci d'utiliser cette commande dans un channel dédier à cet effet",
+					"description": "Merci d'utiliser cette commande dans un channel dédié à cet effet",
 					"title": "❌ Ce n'est pas un channel de ticket"
 				}
 			}
