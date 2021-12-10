@@ -40,7 +40,7 @@
 					"title": "❌ Permissions insuffisantes"
 				},
 				"not_a_ticket": {
-					"description": "Merci d'utiliser cette commande dans un channel de ticket, ou mentionnez le channel.",
+					"description": "Merci d'utiliser cette commande dans un channel de ticket, ou de mentionner le channel.",
 					"title": "❌ Ce n'est pas un channel de ticket"
 				}
 			}
