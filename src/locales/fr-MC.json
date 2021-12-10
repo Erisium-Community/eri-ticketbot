@@ -9,7 +9,7 @@
 	},
 	"collector_expires_in": "Expire dans %d secondes",
 	"command_execution_error": {
-		"description": "Une érreur est apparu lors de l'éxécution de la commande.\nMerci de contacter un administrateur ou de vérifier les logs pour plus de détails.",
+		"description": "Une erreur est apparue lors de l'exécution de la commande.\nMerci de contacter un administrateur ou de vérifier les logs pour plus de détails.",
 		"title": "⚠️"
 	},
 	"commands": {
