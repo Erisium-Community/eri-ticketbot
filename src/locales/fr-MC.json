@@ -64,7 +64,7 @@
 					"name": "remove",
 					"options": {
 						"member_or_role": {
-							"description": "Le membre oû rôle a retiré de la blacklist",
+							"description": "Le membre ou rôle à retirer de la blacklist",
 							"name": "member_or_role"
 						}
 					}
