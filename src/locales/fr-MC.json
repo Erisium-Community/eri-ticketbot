@@ -54,7 +54,7 @@
 					"name": "add",
 					"options": {
 						"member_or_role": {
-							"description": "Le membre oû rôle a ajouté à la blacklist",
+							"description": "Le membre ou rôle à ajouter à la blacklist",
 							"name": "member_or_role"
 						}
 					}
