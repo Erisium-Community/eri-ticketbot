@@ -254,7 +254,7 @@
 			}
 		},
 		"panel": {
-			"description": "Créer un nouveau channel de ticket",
+			"description": "Créer un nouveau canal d'ouverture de tickets",
 			"name": "panel",
 			"options": {
 				"categories": {
