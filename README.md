@@ -1,11 +1,55 @@
-[![GitHub stars](https://img.shields.io/github/stars/discord-tickets/bot?style=flat-square)](https://github.com/discord-tickets/bot/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/discord-tickets/bot?style=flat-square)](https://github.com/discord-tickets/bot/stargazers)
-[![License](https://img.shields.io/github/license/discord-tickets/bot?style=flat-square)](https://github.com/discord-tickets/bot/blob/main/LICENSE)
-![](https://img.shields.io/badge/dynamic/json?color=5865F2&label=bots&query=clients&url=https%3A%2F%2Fstats.discordtickets.app&logo=discord&logoColor=white&style=flat-square)
-![](https://img.shields.io/badge/dynamic/json?color=5865F2&label=tickets&query=tickets&url=https%3A%2F%2Fstats.discordtickets.app&logo=discord&logoColor=white&style=flat-square)
-[![Codacy](https://img.shields.io/codacy/grade/b974eb5f984c40868e07d82c968bd02d?logo=codacy&style=flat-square)](https://www.codacy.com/gh/discord-tickets/bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=discord-tickets/bot&amp;utm_campaign=Badge_Grade)
-[![Discord](https://img.shields.io/discord/451745464480432129?label=discord&color=7289DA&style=flat-square)](https://go.eartharoid.me/discord)
-[![Weblate](http://i18n.capestar.net/widgets/discord-tickets/-/bot/svg-badge.svg)](https://i18n.capestar.net/engage/discord-tickets/)
+<div align="center">
+	<img
+	     src="https://img.eartharoid.me/insecure/plain/https://static.eartharoid.me/discord-tickets/logo/wordmark/gradient-by-eartharoid.png@png"
+	     alt="Discord Tickets"
+	     />
+	<b>	
+		An open-source ticket management bot for Discord - a free alternative to the premium and white-label plans of other popular ticketing bots.
+	</b>
+	<br>
+	<br>
+	<div>
+		<p>
+	<a href="https://github.com/discord-tickets/bot/stargazers">
+		<img
+			src="https://img.shields.io/github/stars/discord-tickets/bot?style=flat-square"
+			alt="GitHub stars">
+	</a>
+	<img
+		src="https://img.shields.io/badge/dynamic/json?color=5865F2&label=bots&query=clients.total&url=https%3A%2F%2Fstats.discordtickets.app%2Fapi%2Fv3%2Fcurrent&logo=discord&logoColor=white&style=flat-square"
+		alt="">
+	<img
+		src="https://img.shields.io/badge/dynamic/json?color=5865F2&label=tickets&query=tickets&url=https%3A%2F%2Fstats.discordtickets.app%2Fapi%2Fv3%2Fcurrent&logo=discord&logoColor=white&style=flat-square"
+		alt="">
+	<a
+		href="https://www.codacy.com/gh/discord-tickets/bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=discord-tickets/bot&amp;utm_campaign=Badge_Grade"><img
+		src="https://img.shields.io/codacy/grade/b974eb5f984c40868e07d82c968bd02d?logo=codacy&amp;style=flat-square"
+		alt="Codacy">
+	</a>
+	<a
+		href="https://lnk.earth/discord"><img
+		src="https://img.shields.io/discord/451745464480432129?label=discord&amp;color=7289DA&amp;style=flat-square"
+		alt="Discord">
+	</a>
+</p>
+	</div>
+	<br>
+	<div>
+		<a
+	   		href="https://www.producthunt.com/posts/discord-tickets?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-discord&#0045;tickets"
+	  		 target="_blank">
+			<img
+		     		src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=321112&theme=light"
+		     		alt="Discord&#0032;Tickets - A&#0032;free&#0032;ticketing&#0032;solution | Product Hunt"
+		     		style="width: 250px; height: 54px;"
+		     		width="250"
+		     		height="54"
+		     	/>
+		</a>
+	</div>
+</div>
+
+
 
 <br>
 
@@ -20,7 +64,7 @@
 	<b><a href="https://discordtickets.app/getting-started#pebblehost">Partnered with PebbleHost</a></b>
 	<br>
 	<sub>
-		for cheap bot hosting
+		for affordable bot hosting
 	</sub>
 </div>
 
@@ -28,11 +72,6 @@
 
 <br>
 
-![Discord Tickets](https://img.eartharoid.me/insecure/plain/https://static.eartharoid.me/discord-tickets/logo/wordmark/gradient-by-eartharoid.png@png)
-
-An open-source ticket management bot for Discord - a free alternative to the premium and white-label plans of other popular ticketing bots.
-
-[![ProductHunt](https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=321112&theme=light)](https://www.producthunt.com/posts/discord-tickets?utm_source=badge-review&utm_medium=badge&utm_souce=badge-discord-tickets#discussion-body)
 
 ## What is this?
 
@@ -99,7 +138,7 @@ You will find most of information you need at [discordtickets.app](https://disco
 
 If the [documentation](https://discordtickets.app) leaves you with questions, you can ask for help in the [discussions](https://github.com/discord-tickets/bot/discussions/categories/support-q-a) or join the support server on Discord.
 
-[![Join the Discord server](https://img.eartharoid.me/insecure/rs:auto:440:200/plain/s3://eartharoid/images/join-discord.png@png)](https://go.eartharoid.me/discord)
+[![Join the Discord server](https://img.eartharoid.me/insecure/rs:auto:440:200/plain/s3://eartharoid/images/join-discord.png@png)](https://lnk.earth/discord)
 
 ## Contributing
 
@@ -126,12 +165,60 @@ Thank you to everyone to has contributed to Discord Tickets, including everyone 
 
 **These awesome people and communities sponsor Discord Tickets:**
 
-- [reSkybounds](https://reskybounds.com/) ([Discord](https://discord.reskybounds.com/))
-- [thephilluk#0204](https://discord.com/users/166187860968472577) <!-- @thephilluk -->
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://reskybounds.com">
+				<img
+					src="https://img.eartharoid.me/insecure/rs:auto:256/plain/s3://eartharoid/k/22/05/reskybounds.png"
+					height="128px;"
+					alt="" />
+					<br />
+					<sub><b>reSkybounds</b></sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://darkhosting.club">
+				<img
+					src="https://cdn.discordapp.com/attachments/920423855636496387/943574596777549894/attachment.png"
+					height="128px;"
+					alt="" />
+					<br />
+					<sub><b>DarkHosting™️</b></sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://simplyvanilla.net">
+				<img
+					src="https://i.imghut.com/2022/04/26/sv-2022-discord-static.png"
+					height="128px;"
+					alt="" />
+					<br />
+					<sub><b>Simply Vanilla</b></sub>
+			</a>
+		</td>
+		<td align="center">
+			<a href="https://urhost.io/">
+				<img
+					src="https://static.eartharoid.me/k/22/05/urhost.png"
+					height="128px;"
+					alt="" />
+					<br />
+					<sub><b>URHOST</b></sub>
+			</a>
+		</td>
+	</tr>
+</table>
+
 
 ### Donate
 
 [![Donate at ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/eartharoid)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=discord-tickets/bot&type=Date)](https://star-history.com/#discord-tickets/bot&Date)
+
 
 ## License
 

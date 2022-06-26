@@ -2,7 +2,7 @@
 	"blacklisted": "❌ You are blacklisted",
 	"bot": {
 		"missing_permissions": {
-			"description": "Discord Tickets requires the following permissions:\n%s",
+			"description": "Discord Tickets requires the following permissions:\n%s ",
 			"title": "⚠️"
 		},
 		"version": "[Discord Tickets](%s) v%s by [eartharoid](%s)"
@@ -200,7 +200,6 @@
 		"help": {
 			"description": "List the commands you have access to",
 			"name": "help",
-			"options": {},
 			"response": {
 				"list": {
 					"description": "The commands you have access to are listed below. To create a ticket, type **`/new`**.",
@@ -274,13 +273,13 @@
 					"description": "Create a \"just type\" panel?",
 					"name": "just_type"
 				},
-				"title": {
-					"description": "The title for the panel message",
-					"name": "title"
-				},
 				"thumbnail": {
 					"description": "A thumbnail image URL for the panel message",
 					"name": "thumbnail"
+				},
+				"title": {
+					"description": "The title for the panel message",
+					"name": "title"
 				}
 			},
 			"response": {
@@ -457,8 +456,8 @@
 				"category_created": "✅ The `%s` ticket category has been created",
 				"category_deleted": "✅ The `%s` ticket category has been deleted",
 				"category_does_not_exist": "❌ No category exists with the provided ID",
-				"category_updated": "✅ The `%s` ticket category has been updated",
 				"category_list": "Ticket categories",
+				"category_updated": "✅ The `%s` ticket category has been updated",
 				"settings_updated": "✅ Settings have been updated"
 			}
 		},
@@ -473,10 +472,9 @@
 				"tickets": "Tickets"
 			},
 			"name": "stats",
-			"options": {},
 			"response": {
 				"global": {
-					"description": "Statistics about tickets across all guilds where this Discord TIckets instance is used.",
+					"description": "Statistics about tickets across all guilds where this Discord Tickets instance is used.",
 					"title": "📊 Global stats"
 				},
 				"guild": {
@@ -599,8 +597,8 @@
 			},
 			"start": {
 				"buttons": {
-					"start": "Start survey",
-					"ignore": "No"
+					"ignore": "No",
+					"start": "Start survey"
 				},
 				"description": "Hey, %s. Before this channel is deleted, would you mind completing a quick %d-question survey?",
 				"title": "❔ Feedback"
