@@ -105,6 +105,7 @@
 				"role_added": {
 					"description": "Le rôle <@&%s> a été ajouté a la blacklist. Les joueurs avec ce rôle ne peuvent donc plus interagir avec le bot.",
 					"title": "✅ Rôle ajouté a la blacklist"
+				},
 				"role_removed": {
 					"description": "Le rôle <@&%s> a été retiré de la blacklist. Les joueurs avec ce rôle peuvent de nouveau interagir avec le bot.",
 					"title": "✅ Rôle retiré de la blacklist"
