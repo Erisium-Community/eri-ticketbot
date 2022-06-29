@@ -179,7 +179,6 @@ module.exports = class TicketManager extends EventEmitter {
 							.addField(i18n('ticket.opening_message.fields.topic'), topic)
 							.setFooter(settings.footer, guild.iconURL())
 					);
-					await message.react('✅');
 					collector.stop();
 				});
 
