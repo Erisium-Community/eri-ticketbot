@@ -267,7 +267,7 @@ module.exports = class TicketManager extends EventEmitter {
 
 				setTimeout(async () => {
 					await channel.delete(`Ticket channel closed by ${closer.user.tag}${reason ? `: "${reason}"` : ''}`);
-				}, 600000);
+				}, 180000);
 
 				this.client.log.info(`${closer.user.tag} closed a ticket (${ticket_id})${reason ? `: "${reason}"` : ''}`);
 			} else {
@@ -286,7 +286,7 @@ module.exports = class TicketManager extends EventEmitter {
 
 				setTimeout(async () => {
 					await channel.delete(`Ticket channel closed${reason ? `: "${reason}"` : ''}`);
-				}, 600000);
+				}, 180000);
 
 				this.client.log.info(`A ticket was closed (${ticket_id})${reason ? `: "${reason}"` : ''}`);
 			}
